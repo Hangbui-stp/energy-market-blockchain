@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/energymarket
+    username: postgres
+    password: 'admin'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org.springframework.web: INFO
+
+web3:
+  rpc-url: "https://eth-sepolia.g.alchemy.com/Uzp82gKu7x6z6EzJ8TEwo"
+
+contract:
+  nft:
+    address: "0x5c394df44C03E546Be4B15Ec82ac8B3F04a534D9"
+  marketplace:
+    address: "0xC81563320aB0ebBCE674D6D31fE3bEef9589B74C"
+  lending:
+    address: "0x21850C2874202E169Ad18813d4469aA302968754"
+
+ipfs:
+  gateway:
+    url: https://ipfs.io/ipfs/
+
+app:
+  cache:
+    ttl: 3600
+  pagination:
+    default-page-size: 20
+    max-page-size: 100
+
+cache:
+  evict:
+    rate: 3600000
+
+blockchain:
+  node:
+    url: "https://eth-sepolia.g.alchemy.com/v2/Uzp82gKu7x6z6EzJ8TEwo"
