@@ -34,3 +34,15 @@ The system consists of:
 - **Git**  
   https://git-scm.com/
 
+## 3. User Interface Images
+### Home
+![home](https://github.com/user-attachments/assets/d4422022-eb77-452f-870c-b70b5eb304dc)
+### Create energy
+![create energy](https://github.com/user-attachments/assets/fb44fb1a-e3b1-4ef6-94fe-9b548eae0c9d)
+### Analytics
+![analytics](https://github.com/user-attachments/assets/11dd41fe-d9f9-4034-8b8c-5fd42210d6c8)
+### Purchased items
+![purchased item](https://github.com/user-attachments/assets/894dd55a-a078-4b9f-b6dc-a70e2249254e)
+### Defi bank
+![defi](https://github.com/user-attachments/assets/e92ba1f0-9df7-405f-8dd3-475ff3e9c87a)
+
